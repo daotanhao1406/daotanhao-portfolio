@@ -20,16 +20,6 @@
     "format": "prettier --write .",
     "prepare": "husky"
   },
-  "lint-staged": {
-    "./src/**/*.{ts,js,jsx,tsx}": [
-      "pnpm lint:eslint",
-      "pnpm format"
-    ],
-    "./src/**/*.{css,scss,json}": [
-      "pnpm lint:style",
-      "pnpm format"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "eslint:recommended",
