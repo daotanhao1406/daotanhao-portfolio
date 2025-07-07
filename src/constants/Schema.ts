@@ -17,7 +17,7 @@ const HomePage: Graph = {
       image: `${APP_URL}${images}`,
       alumniOf: {
         '@type': 'CollegeOrUniversity',
-        name: 'SRM Institute of Science and Technology'
+        name: 'Ho Chi Minh University of Information Technology'
       },
       sameAs: [
         'https://www.linkedin.com/in/dao-tan-hao-14a745344/'

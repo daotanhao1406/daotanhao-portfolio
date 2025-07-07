@@ -74,7 +74,7 @@ export const METADATA: Metadata = {
   ],
   openGraph: {
     type: 'website',
-    countryName: 'India',
+    countryName: 'Vietnam',
     title,
     description,
     images
