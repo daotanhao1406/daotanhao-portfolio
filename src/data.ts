@@ -37,6 +37,38 @@ Well-structured project ready for future features like authentication, video pla
 `
   },
   {
+    "name": "Juicy Shop",
+    "slug": "juicy-shop",
+    "tags": [
+      "Next.js",
+      "SEO",
+      "Ecommerce"
+    ],
+    "image": {
+      "src": "/images/project-juicy.png",
+      "alt": "Screenshot of Project Juicy Shop",
+      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAACxKAAAsSgF3enRNAAAAPElEQVR4nGOQYGD435KX+3/vphX/3zy5+J+hoabyPwg8fvb6/707F/4zyMlo/o+NTP4/o6f9/92Lu/8DADPJIWTXcKLhAAAAAElFTkSuQmCC"
+    },
+    "github": "https://github.com/daotanhao1406/santorini-fe",
+    "live": "https://santorini-coffee.vercel.app/",
+    "mdx":`A visually striking and conversion-driven landing page designed to showcase professional services, attract leads, and elevate brand credibility. This project emphasizes clarity, smooth user flow, and strategic messaging — all while maintaining a modern, polished UI.
+
+## Key Features
+
+**01. Brand-Centric Design:**  
+The layout puts the brand's value proposition front and center with bold typography, strong hierarchy, and carefully selected color accents to build trust and engagement.
+
+**02. Smooth UX & Navigation:**  
+Clean navigation bar with active state tracking, combined with smooth scroll behavior, offers visitors a seamless experience across all sections.
+
+**03. Responsive & Accessible:**  
+Built with **TailwindCSS**, the page adapts beautifully to any screen size while following accessibility best practices to ensure inclusivity.
+
+**04. Conversion-Focused Elements:**  
+Strategic use of CTA buttons (e.g. “Let’s Talk”, “Portfolio”) are placed to guide users naturally toward making contact or viewing work, improving conversion rates.
+`
+  },
+  {
     "name": "Portfolio Landing Page",
     "slug": "portfolio-landing-page",
     "tags": [

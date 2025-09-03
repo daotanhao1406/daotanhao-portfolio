@@ -52,12 +52,12 @@ export default async function Project({ params: { slug } }: { params: { slug: st
     return (
       <div className={styles.links}>
         {github && (
-          <Link href={github} disableExitAnimation rel='noopener noreferrer'>
+          <Link target='_blank' href={github} disableExitAnimation rel='noopener noreferrer'>
             Github
           </Link>
         )}
         {live && (
-          <Link href={live} disableExitAnimation>
+          <Link target='_blank' href={live} disableExitAnimation>
             Live
           </Link>
         )}
@@ -66,7 +66,13 @@ export default async function Project({ params: { slug } }: { params: { slug: st
   }
 
   function Tags() {
-    return <ul className={styles.tags}>{tags?.map((tag, i) => <li key={i}>{tag}</li>)}</ul>;
+    return (
+      <ul className={styles.tags}>
+        {tags?.map((tag, i) => (
+          <li key={i}>{tag}</li>
+        ))}
+      </ul>
+    );
   }
 }
 
