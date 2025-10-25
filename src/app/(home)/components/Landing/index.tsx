@@ -10,12 +10,11 @@ const Home = memo(function Home() {
         <span>Experiences</span>
         <span>
           <span>that</span>
-          Captivate
+          Shine
         </span>
       </h1>
       <p>
-        Hi, I&rsquo;m a front-end developer, blending artistry & technology to deliver stunning
-        online journeys.
+        Hi, I&rsquo;m a front-end developer, crafting digital beauty through code and creativity.
       </p>
     </section>
   );
